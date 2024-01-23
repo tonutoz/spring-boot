@@ -1,0 +1,23 @@
+server:
+  port: 8099
+
+logging:
+  config: classpath:logback-spring.xml
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/kafka?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: kafka-test
+    password: dkssud123#
+    hikari:
+      maximum-pool-size: 40
+      max-lifetime: 42000
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        default_batch_fetch_size: 1000
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
