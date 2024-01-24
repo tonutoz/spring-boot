@@ -1,4 +1,4 @@
-package org.example.tonutoz.boot.callback;
+package org.example.tonutoz.spring.callback;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ForkJoinPool;

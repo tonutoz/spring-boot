@@ -1,4 +1,4 @@
-package io.whatap.assignment.cmm.exception;
+package org.example.tonutoz.boot.cmm.exception;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import java.util.List;

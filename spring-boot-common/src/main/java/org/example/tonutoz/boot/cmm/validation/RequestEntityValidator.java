@@ -1,4 +1,4 @@
-package io.whatap.assignment.cmm.validation;
+package org.example.tonutoz.boot.cmm.validation;
 
 import io.whatap.assignment.cmm.exception.ErrorResponse.ValidationError;
 import java.util.List;

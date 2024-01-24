@@ -1,4 +1,4 @@
-package io.whatap.assignment.cmm.aop;
+package org.example.tonutoz.boot.cmm.aop;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;

@@ -1,4 +1,4 @@
-package io.whatap.assignment.cmm.aop;
+package org.example.tonutoz.boot.cmm.aop;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

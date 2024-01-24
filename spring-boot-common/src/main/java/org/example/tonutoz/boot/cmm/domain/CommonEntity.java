@@ -1,4 +1,4 @@
-package io.whatap.assignment.cmm.domain;
+package org.example.tonutoz.boot.cmm.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

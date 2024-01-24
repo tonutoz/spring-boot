@@ -1,4 +1,4 @@
-package io.whatap.assignment.cmm.domain;
+package org.example.tonutoz.boot.cmm.domain;
 
 import java.time.LocalDateTime;
 import lombok.Getter;

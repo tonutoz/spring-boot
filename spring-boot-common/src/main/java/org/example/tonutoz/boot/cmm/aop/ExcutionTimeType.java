@@ -1,4 +1,4 @@
-package io.whatap.assignment.cmm.aop;
+package org.example.tonutoz.boot.cmm.aop;
 
 import java.util.function.Function;
 import lombok.Getter;
