@@ -14,22 +14,6 @@
           </set>
         </option>
       </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-common" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/spring-boot-common" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-java" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/spring-boot-java" />
-          </set>
-        </option>
-      </GradleProjectSettings>
     </option>
   </component>
 </project>
