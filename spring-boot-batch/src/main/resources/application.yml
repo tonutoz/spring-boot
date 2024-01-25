@@ -1,5 +1,5 @@
 server:
-  port: 8099
+  port: 8098
 
 logging:
   config: classpath:logback-spring.xml
@@ -15,9 +15,15 @@ spring:
       max-lifetime: 42000
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     properties:
       hibernate:
         default_batch_fetch_size: 1000
         dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: true
+  batch:
+    jdbc:
+      initialize-schema: never
+    job:
+      #name: ${job.name:NONE}
+      name: MESSAGE_JOB

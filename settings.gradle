@@ -1,3 +1,4 @@
 rootProject.name = 'spring-boot'
 include 'spring-boot-common'
 include 'spring-boot-java'
+include 'spring-boot-batch'
