@@ -3,7 +3,6 @@ package org.example.tonutoz.spring.batch.config;
 import jakarta.persistence.EntityManagerFactory;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.example.tonutoz.spring.batch.Message;
 import org.example.tonutoz.spring.message.Message;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobScope;
