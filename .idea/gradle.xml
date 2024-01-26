@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/spring-boot-batch" />
             <option value="$PROJECT_DIR$/spring-boot-common" />
             <option value="$PROJECT_DIR$/spring-boot-java" />
+            <option value="$PROJECT_DIR$/spring-boot-webflux" />
           </set>
         </option>
       </GradleProjectSettings>
