@@ -3,9 +3,9 @@ server:
 
 spring:
   r2dbc:
-    url: r2dbc:mysql://localhost:3306/mydatabase
-    username: myusername
-    password: mypassword
+    url: r2dbc:mysql://localhost:3307/spring?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: spring-test
+    password: dkssud123#
   data:
     mysql:
       enabled: true
