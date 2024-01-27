@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/mydatabase
+    username: myusername
+    password: mypassword
+  data:
+    mysql:
+      enabled: true
+
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    org.springframework.r2dbc.core: debug
