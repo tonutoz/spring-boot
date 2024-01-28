@@ -1,0 +1,15 @@
+version: "2.2"
+
+services:
+  mysql:
+    image: mysql:8.2
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+      - MYSQL_USER=spring-test
+      - MYSQL_PASSWORD=dkssud123#
+      - MYSQL_DATABASE=spring
+    volumes:
+      - "./conf.d:/etc/mysql/conf.d:ro"

@@ -1,7 +1,7 @@
 package org.example.tonutoz.boot.cmm.validation;
 
-import org.example.tonutoz.boot.cmm.exception.ErrorResponse.ValidationError;
 import java.util.List;
+import org.example.tonutoz.boot.cmm.exception.ErrorResponse.ValidationError;
 
 /**
  * Request Entity 검증 인터페이스
@@ -9,6 +9,6 @@ import java.util.List;
  */
 public interface RequestEntityValidator<T>{
 
-  public List<ValidationError> validate(T request);
+  List<ValidationError> validate(T request);
 
 }
