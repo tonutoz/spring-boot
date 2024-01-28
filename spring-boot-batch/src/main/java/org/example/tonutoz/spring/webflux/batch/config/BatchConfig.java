@@ -1,4 +1,4 @@
-package org.example.tonutoz.spring.batch.config;
+package org.example.tonutoz.spring.webflux.batch.config;
 
 import org.springframework.batch.core.explore.JobExplorer;
 import org.springframework.batch.core.launch.JobLauncher;
