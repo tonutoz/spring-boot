@@ -1,0 +1,23 @@
+server:
+  port: 8092
+
+logging:
+  config: classpath:logback-spring.xml
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/spring?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: spring-test
+    password: dkssud123#
+    hikari:
+      maximum-pool-size: 40
+      max-lifetime: 42000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        #default_batch_fetch_size: 1000
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true

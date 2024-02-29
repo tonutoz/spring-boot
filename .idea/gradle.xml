@@ -12,7 +12,16 @@
             <option value="$PROJECT_DIR$/spring-boot-batch" />
             <option value="$PROJECT_DIR$/spring-boot-common" />
             <option value="$PROJECT_DIR$/spring-boot-java" />
+            <option value="$PROJECT_DIR$/spring-boot-jpa" />
             <option value="$PROJECT_DIR$/spring-boot-webflux" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-boot-log" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-boot-log" />
           </set>
         </option>
       </GradleProjectSettings>
